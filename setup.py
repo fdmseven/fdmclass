@@ -12,6 +12,6 @@ setup(
     long_description=open('README.md').read(),
     python_requires='>=3',
     install_requires=[
-        "fdm_utils==0.1.0",
+        "fdmutils==0.1.0",
     ],
 )
