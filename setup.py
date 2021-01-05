@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name='fdmclass',
-    version='0.1.0',
+    version='0.1.1',
     author='fdmseven',
     author_email='wrp2003000@163.com',
     packages=["fdmclass"],
@@ -12,6 +12,6 @@ setup(
     long_description=open('README.md').read(),
     python_requires='>=3',
     install_requires=[
-        "fdmutils==0.1.0",
+        "fdmutils==0.1.1",
     ],
 )
