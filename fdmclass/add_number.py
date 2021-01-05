@@ -2,10 +2,10 @@
 import sys
 import json
 
-from fdm_utils.common     import get_tb_info
-from fdm_utils.common     import show_dict_intree
-from fdm_utils.data_var   import my_linf    ## 负无穷
-from fdm_utils.data_var   import my_rinf    ## 正无穷
+from fdmutils.common     import get_tb_info
+from fdmutils.common     import show_dict_intree
+from fdmutils.data_var   import my_linf    ## 负无穷
+from fdmutils.data_var   import my_rinf    ## 正无穷
 
 class CAddNumberObj():
     def __init__(self,_debug=False):
